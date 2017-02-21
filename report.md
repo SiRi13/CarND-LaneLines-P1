@@ -2,7 +2,7 @@
 
 ###1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-At first the image gets converted to the HLS color space. This allows me to filter yellow and white better, even in darker parts e.g. shadows.
+At first the image gets converted to the HLS color space. This allows me to filter yellow and white better, even in darker parts like shadows.
 I chose the HLS space because it is better suited for filtering colors and made the lanes stick out more than other color spaces. 
 
 ![Filtered Colors of Lane Lines](./examples/plots/filtered.png "Yellow And White Colors Filtered")
