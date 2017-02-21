@@ -28,7 +28,7 @@ To consider longer or shorter lane lines, e.g. driving up or down a hill, the y-
 y-values of detected points or a fixed value, depending which is higher. This enables variable line length but keeps the length steady when the car hits a bump.
 With *opencvs* line function the calculated points are drawn on the image within a region to avoid a intersection of the line.
 
-![Detected Lane Lines](./examples/plots/drawn_lanes.png "Lane Lines in Yellow and Pink")
+![Detected Lane Lines](./examples/plots/detected_lines.png "Lane Lines in Yellow and Pink")
 
 
 ###2. Identify potential shortcomings with your current pipeline
@@ -38,5 +38,5 @@ Possible further shortcomings are dark roads or alternating lighting conditions.
 
 ###3. Suggest possible improvements to your pipeline
 
-A possible improvement could bring the flatten of the image or a region to make the lanes parallel. This way detecting and drawing lines
-would be easier for bent lines. 
+A possible improvement could bring the flatten of the image or a region to make the lanes parallel. 
+This way detecting and drawing lines would be easier for bent lines. 
